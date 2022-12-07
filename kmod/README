@@ -1,0 +1,8 @@
+1. Copy the `if_igb.ko` file to /boot/modules/
+2. `chmod 555 /boot/modules/if_igb.ko`
+3. Add the following lines to `/boot/loader.conf`
+
+```
+if_igb_load="YES"
+if_igb_name="/boot/modules/if_igb.ko"
+```
