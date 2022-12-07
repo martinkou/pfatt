@@ -1,5 +1,9 @@
 #!/bin/sh
-PING_HOST=8.8.8.8
+#PING_HOST=8.8.8.8
+
+GATEWAY=99.130.252.1
+PING_HOST=${GATEWAY}
+
 SLEEP=5
 LOG=/var/log/pfatt.log
 
